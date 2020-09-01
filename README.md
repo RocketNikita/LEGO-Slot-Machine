@@ -11,6 +11,7 @@ Sometimes you haven't got enough parts to build a model, so I split instructions
 If you installed EV3dev already, just download .py file and put it in a new folder, then download it on EV3 brick with VScode, otherwise install EV3dev on EV3(Installing guide on [official website](https://www.ev3dev.org)) or help me create a program for normal EV3 software. The prototype [here](https://github.com/RoketNikita/LEGO-Slot-Machine/blob/master/Programs/LEGO%20Slot%20Machine%20Mindstorms.lmsp).
 ## Video
 <iframe src="https://youtu.be/3avLGqHw1EM"></iframe>
+
 ## Links
 * [LEGO® Mindstorms® EV3 31313 set](https://www.lego.com/en-us/product/lego-mindstorms-ev3-31313)
 * [LEGO® 6x6 All Terrain Tow Truck 42070 set](https://www.lego.com/en-us/product/6x6-all-terrain-tow-truck-42070)
