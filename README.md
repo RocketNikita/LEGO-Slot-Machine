@@ -1,5 +1,5 @@
 # LEGO Slot Machine
-![Slot Machine image](https://github.com/RoketNikita/LEGO-Slot-Machine/blob/master/Rendered%20images/LEGO%20Slot%20Machine%20without%20background.png)
+<kbd><img src="https://github.com/RoketNikita/LEGO-Slot-Machine/blob/master/Rendered%20images/LEGO%20Slot%20Machine%20without%20background.png" alt="Slot Machine image"/></kbd>
 ## Description
 Simple slot Machine made out of LEGO® Mindstorms® EV3 31313 set, LEGO® 6x6 All Terrain Tow Truck 42070 set and some other parts. Programmed on Python with EV3dev software installed on EV3. 3D Model made with LDraw system of tools and LeoCAD application. Imported to Stud.io to Make Instructions.
 ## Building instructions
