@@ -16,18 +16,18 @@ reset A motor
 reset B motor
 reset C motor
 repeat forever:
-  wait touch sensor to be pressed
-  start motor A at random speed
-  start motor B at random speed
-  start motor C at random speed
-  wait touch sensor to be pressed and released
-  stop motor A without brake
-  stop motor B without brake
-  stop motor C without brake
-  wait touch sensor to be pressed and released
-  set position of A motor to round(motor A position ÷ 45) * 45
-  set position of B motor to round(motor B position ÷ 45) * 45
-  set position of C motor to round(motor C position ÷ 45) * 45
+    wait touch sensor to be pressed
+    start motor A at random speed
+    start motor B at random speed
+    start motor C at random speed
+    wait touch sensor to be pressed and released
+    stop motor A without brake
+    stop motor B without brake
+    stop motor C without brake
+    wait touch sensor to be pressed and released
+    set position of A motor to round(motor A position ÷ 45) * 45
+    set position of B motor to round(motor B position ÷ 45) * 45
+    set position of C motor to round(motor C position ÷ 45) * 45
 ```
 ## Video
 [![video](http://img.youtube.com/vi/3avLGqHw1EM/0.jpg)](https://youtu.be/3avLGqHw1EM)
