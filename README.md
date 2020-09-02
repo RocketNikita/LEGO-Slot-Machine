@@ -9,25 +9,26 @@ Sometimes you haven't got enough parts to build a model, so I split instructions
 3. Front panel (All steps in instructions, if you have got two extra Technic, Panel Plate 5 x 11 x 1)
 ## Programming
 If you installed EV3dev already, just download .py file and put it in a new folder, then download it on EV3 brick with VScode, otherwise install EV3dev on EV3(Installing guide on [official website](https://www.ev3dev.org)) or help me create a program for normal EV3 software. The prototype [here](https://github.com/RoketNikita/LEGO-Slot-Machine/blob/master/Programs/LEGO%20Slot%20Machine%20Mindstorms.lmsp).Algorythm here:
-
-  print "ready"
-  wait touch sensor to be pressed # wait for user to calibrate motors
-  reset A motor
-  reset B motor
-  reset C motor
-  repeat forever:
-    wait touch sensor to be pressed
-    start motor A at random speed
-    start motor B at random speed
-    start motor C at random speed
-    wait touch sensor to be pressed and released
-    stop motor A without brake
-    stop motor B without brake
-    stop motor C without brake
-    wait touch sensor to be pressed and released
-    set position of A motor to round(motor A position ÷ 45) * 45
-    set position of B motor to round(motor B position ÷ 45) * 45
-    set position of C motor to round(motor C position ÷ 45) * 45
+```
+print "ready"
+wait touch sensor to be pressed # wait for user to calibrate motors
+reset A motor
+reset B motor
+reset C motor
+repeat forever:
+  wait touch sensor to be pressed
+  start motor A at random speed
+  start motor B at random speed
+  start motor C at random speed
+  wait touch sensor to be pressed and released
+  stop motor A without brake
+  stop motor B without brake
+  stop motor C without brake
+  wait touch sensor to be pressed and released
+  set position of A motor to round(motor A position ÷ 45) * 45
+  set position of B motor to round(motor B position ÷ 45) * 45
+  set position of C motor to round(motor C position ÷ 45) * 45
+```
 ## Video
 [![video](http://img.youtube.com/vi/3avLGqHw1EM/0.jpg)](https://youtu.be/3avLGqHw1EM)
 
