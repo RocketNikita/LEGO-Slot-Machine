@@ -8,8 +8,7 @@ Sometimes you haven't got enough parts to build a model, so I split instructions
 2. Decorations (Up to step 139, if you have got 6x6 All Terrain Tow Truck 42070 set)
 3. Front panel (All steps in instructions, if you have got two extra Technic, Panel Plate 5 x 11 x 1)
 ## Programming
-If you installed EV3dev already, just download .py file and put it in a new folder, then download it on EV3 brick with VScode, otherwise install EV3dev on EV3(Installing guide on [official website](https://www.ev3dev.org)) or help me create a program for normal EV3 software. The prototype [here](https://github.com/RoketNikita/LEGO-Slot-Machine/blob/master/Programs/LEGO%20Slot%20Machine%20Mindstorms.lmsp).
-Algorythm here:
+If you installed EV3dev already, just download .py file and put it in a new folder, then download it on EV3 brick with VScode, otherwise install EV3dev on EV3(Installing guide on [official website](https://www.ev3dev.org)) or help me create a program for normal EV3 software. The prototype [here](https://github.com/RoketNikita/LEGO-Slot-Machine/blob/master/Programs/LEGO%20Slot%20Machine%20Mindstorms.lmsp). Algorythm here:
 ```
 print "ready"
 wait touch sensor to be pressed # wait for user to calibrate motors
