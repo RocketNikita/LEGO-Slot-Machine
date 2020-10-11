@@ -11,12 +11,12 @@ Sometimes you haven't got enough parts to build a model, so I split instructions
 If you installed EV3dev already, just download .py file and put it in a new folder, then download it on EV3 brick with VScode, otherwise install EV3dev on EV3(Installing guide on [official website](https://www.ev3dev.org)) or help me create a program for normal EV3 software. The prototype [here](https://github.com/RoketNikita/LEGO-Slot-Machine/blob/master/Programs/LEGO%20Slot%20Machine%20Mindstorms.lmsp). Algorythm:
 ```
 print "ready"
-wait touch sensor to be pressed # wait for user to calibrate motors
+wait touch sensor to be pressed and released # wait for user to calibrate motors
 reset A motor
 reset B motor
 reset C motor
 repeat forever:
-    wait touch sensor to be pressed
+    wait touch sensor to be pressed and released
     start motor A at random speed
     start motor B at random speed
     start motor C at random speed
